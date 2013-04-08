@@ -1,62 +1,531 @@
+
+<!doctype html>
+<!--[if IE 7]>         <html id="uv-com" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html id="uv-com" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html id="uv-com" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="//cdn.optimizely.com/js/5682155.js"></script>
   
-    <!doctype html>
-    <html id="uservoice-com" class="no-js" lang="en">
-    <head>
-      <title>UserVoice - Customer Feedback and Helpdesk Solutions | UserVoice</title>
+  <title>Feedback &amp; Online Help Desk Software | UserVoice</title>
+  <link rel="canonical" href="https://www.uservoice.com/" />
 
-<meta charset="utf-8">
+  <meta name="description" content="UserVoice integrates easy-to-use feedback, helpdesk, and knowledge base management tools in one platform that empowers users to speak and companies to understand.">
 
+  <link rel="alternate" type="application/rss+xml" title="The UserVoice Product Blog Feed" href="http://feeds.feedburner.com/uservoice/product">
+  <link rel="alternate" type="application/rss+xml" title="UserCentered Blog Feed" href="http://feeds.feedburner.com/UnderstandingYourCustomers">
+  <link rel="alternate" type="application/rss+xml" title="Developer Blog Feed" href="http://feeds.feedburner.com/uservoice/GxpH">
 
+  <link rel="stylesheet" href="/assets/royalslider/royalslider.css">
+  
+  <link href="/assets/css/main.css?1365168710" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/assets/css/index3.css?1365168710" media="screen" rel="stylesheet" type="text/css" />
 
-  <link rel="canonical" href="http://www.uservoice.com/">
+  <script src="/assets/js/vendor/modernizr.custom.js"></script>
 
-
-<!-- begin font majik -->
- <script src="https://use.typekit.com/bpl4bin.js"></script>
- <script>
-   // Only load font-faces if font smoothing is turned on
-   var fontSmoothing = true;
- </script>
- <!--[if IE]>
-   <script>
-     if (screen.fontSmoothingEnabled == false) fontSmoothing = false;
-   </script>
- <![endif]-->
- <script>
-   if (fontSmoothing) {
-     try { 
-       Typekit.load(); 
-     } catch(e) {
-     } 
-   }
- </script> 
- <!-- end font majik -->
-
-<script src="http://cdn.uservoice.com/javascripts/marketing_packaged.js"></script>    
-<!--[if (gte IE 6)&(lte IE 8)]>
-  <script src="http://cdn.uservoice.com/javascripts/marketing/selectivizr.js"></script>
-<![endif]-->
-
-<script src="//cdn.optimizely.com/js/5682155.js"></script>
-
-<link rel="stylesheet" href="http://app.uservoice.com/stylesheets/marketing_packaged.css">
-<link rel="stylesheet" href="http://cdn.uservoice.com/javascripts/marketing/fancybox/jquery.fancybox-1.3.2.css">
-<link rel="stylesheet" href="http://www.uservoice.com/cache/assets/13273295323c03c537d7a19449ff8841aa631334f9.css">
-
-<link rel="shortcut icon" href="http://cdn.uservoice.com/uv_favicon.png" type="image/png">
-
-
-
-<link rel="alternate" type="application/rss+xml" title="UserVoice Blog Feed" href="http://feeds.feedburner.com/uservoiceblog">
-<link rel="alternate" type="application/rss+xml" title="FounderVoice Feed" href="http://feeds.feedburner.com/uv-founder-voice">
-<link rel="alternate" type="application/rss+xml" title="Notices Feed" href="http://feeds.feedburner.com/uv-notices">
-<link rel="alternate" type="application/rss+xml" title="Developer Blog Feed" href="http://feeds.feedburner.com/uservoice/GxpH"/>
-
+  <!-- Typekit -->
 <script>
+  (function() {
+    var config = {
+      kitId: 'cjp1jes',
+      scriptTimeout: 3000
+    };
+    var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+  })();
+</script>
 
+</head>
+
+<body class="layout-v2 affordance-edition" id="top">
+  <div id="fb-root"></div>
+
+  <div class="banner-ad-top">
+    <div class="container" style="position: relative;">
+      <p>Introducing the UserVoice Touchpoint Toolkit—the next generation of in-app engagement tools. <a href="/touchpoint-toolkit/">Learn More</a></p>
+      <button class="banner-ad-close">x <span class="visuallyhidden">Close ad</span></button>
+    </div>
+  </div>
+  
+  <header class="banner banner-none" role="banner">
+  <div class="container">
+    <h1 class="logo"><a href="/" title="UserVoice homepage"><img src="/assets/img/fw/dot.gif" alt="UserVoice"></a></h1>
+
+    <nav class="main-nav" role="navigation">
+      <h2 class="visuallyhidden">Main navigation</h2>
+      <ul>
+        <li class="main-nav-about"><a href="/about">About</a></li>
+        <li class="main-nav-plans"><a href="/plans/?ref=top_pricing">Pricing</a></li>
+        <li><a href="https://uservoice.uservoice.com/clients/widgets/WQivqOWMVBHSiQx30WfQ.html" data-contact>Contact us</a></li>
+        <li><a href="/plans/?ref=top_trial" class="btn ">Sign up for free</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <section id="home-masthead" class="hero hero-light strip strip-color-header">
+  <div class="container grid-row">
+    <div class="grid-span12">
+      <div class="home-hero animated fadeInRight">
+        <img src="/assets/img/home/hero.png" />
+      </div>
+      <div class="animated fadeInLeft">
+        <h2>More than<br /> a helpdesk.</h2>
+        <p>Join the <strong>120,000+ organizations</strong> in over <strong>170 countries</strong> that rely on UserVoice to let their customers be heard.</p>
+        <p style="font-size:14px;margin-top:-0.5em">Pricing starts at <strong>$0/mo</strong>.<br />All plans include a <a style="text-decoration:none;" href="/plans">30-day free trial.</a><br /><strong>No credit card required.</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="strip strip-color-white features slider-contain" id="features">
+  <div>
+    <div class="slider" data-hide="true">
+      <div class="slider-tabs features-slider-tabs" style="background-color: #fff !important;">
+        <div class="slider-container">
+          <ul class="grid-row">
+            <li class="slider-tab grid-span4 feature center-text" id="feedback">
+              <h2>Feedback Forums</h2>
+              <p>Understand your users so you can build better products.</p>
+              <a href="#panel-feedback-forums" data-panel="feedback-forums" class="btn learn-more">Learn More</a>
+            </li>
+            <li class="slider-tab grid-span4 feature center-text" id="support">
+              <h2>Support Tickets</h2>
+              <p>Give great support with the system that supports you too.</p>
+              <a href="#panel-support-tickets" data-panel="support-tickets" class="btn learn-more">Learn More</a>
+            </li>
+            <li class="slider-tab grid-span4 grid-omega feature center-text" id="knowledge">
+              <h2>Knowledge Base</h2>
+              <p>Help users instantly and reduce requests.</p>
+              <a href="#panel-knowledge-base" data-panel="knowledge-base" class="btn learn-more">Learn More</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="slider-panels" style="background-color:#2e3133;">
+
+        <article id="panel-feedback-forums" data-panel-id="feedback-forums" class="slider-panel">
+          <div class="slider-container">
+            <button class="slider-close">
+              <span class="visuallyhidden">Close the features info box.</span>
+              <span aria-hidden="true" data-icon="x"></span>
+            </button>
+
+            <div class="fader" data-handler="feedback-forums">
+              <div class="grid-span7 fader-content mtx4">
+                <img src="/assets/img/home/slider/1a.jpg" alt="" class="img-scale fader-content-item" id="fader-1a">
+                <img src="/assets/img/home/slider/1b.jpg" alt="" class="img-scale fader-content-item" id="fader-1b">
+                <img src="/assets/img/home/slider/1c.jpg" alt="" class="img-scale fader-content-item" id="fader-1c">
+              </div>
+              
+              <div class="feature-info-list grid-span5 mtx4 fader-content-tabs" style="margin-right:0;">
+                <ul class="media-block">
+                  <li data-icon="k" class="fader-content-tab">
+                    <h4>Empower users to speak up—without signing up.</h4>
+                    <p>Let your users submit ideas without leaving your site or signing into another system. ’Cause who wants to sign up for yet another account?</p>
+                  </li>
+                  <li data-icon="m" class="fader-content-tab">
+                    <h4>Get the feedback that&rsquo;s right for your business.</h4>
+                    <p>Ask specific questions, set up multiple forums, keep conversations public, or create private communities. You can even enable single sign-on, signing in users with credentials from your site.</p>
+                  </li>
+                  <li data-icon="o" class="fader-content-tab">
+                    <h4>Understand users and prioritize ideas.</h4>
+                    <p>Who has time to sift through hundreds of feature requests? Our inline comment threads let users discuss and vet suggestions while our voting system ensures only the ideas they really care about rise to the top.</p>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="fader-tabs">
+                <ul>
+                  <li><a href="#fader-1a" class="fader-tab">Empower users to speak up—without signing up.</a></li>
+                  <li><a href="#fader-1b" class="fader-tab">Get the feedback that&rsquo;s right for your business.</a></li>
+                  <li><a href="#fader-1c" class="fader-tab">Understand users and prioritize ideas.</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article id="panel-support-tickets" data-panel-id="support-tickets" class="slider-panel">
+          <div class="slider-container">
+            <button class="slider-close">
+              <span class="visuallyhidden">Close the features info box.</span>
+              <span aria-hidden="true" data-icon="x"></span>
+            </button>
+
+            <div class="fader" data-handler="support-tickets">
+              <div class="grid-span7 fader-content mtx4">
+                <img src="/assets/img/home/slider/2a.jpg" alt="" class="img-scale fader-content-item" id="fader-2a">
+                <img src="/assets/img/home/slider/2b.jpg" alt="" class="img-scale fader-content-item" id="fader-2b">
+                <img src="/assets/img/home/slider/2c.jpg" alt="" class="img-scale fader-content-item" id="fader-2c">
+              </div>
+              
+              <div class="feature-info-list grid-span5 mtx4 fader-content-tabs" style="margin-right:0;">
+                <ul class="media-block">
+                  <li data-icon="e" class="fader-content-tab">
+                    <h4>Never lose track of support requests again.</h4>
+                    <p>Use our helpdesk interface or your own email to receive notifications and respond to users.</p>
+                  </li>
+                  <li data-icon="c" class="fader-content-tab">
+                    <h4>Save time with canned responses.</h4>
+                    <p>Don’t get bogged down answering the same questions over and over. Save answers to common questions so you can quickly respond to users and tackle the next ticket.</p>
+                  </li>
+                  <li data-icon="g" class="fader-content-tab">
+                    <h4>Get tickets to the right people right away.</h4>
+                    <p>Custom rules, custom fields, and support queues give you control to make incoming tickets do almost anything you want, except maybe dance.</p>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="fader-tabs">
+                <ul>
+                  <li><a href="#fader-2a" class="fader-tab">Never lose track of support requests again.</a></li>
+                  <li><a href="#fader-2b" class="fader-tab">Save time with canned responses.</a></li>
+                  <li><a href="#fader-2c" class="fader-tab">Get tickets to the right people right away.</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article id="panel-knowledge-base" data-panel-id="knowledge-base" class="slider-panel">
+          <div class="slider-container">
+            <button class="slider-close">
+              <span class="visuallyhidden">Close the features info box.</span>
+              <span aria-hidden="true" data-icon="x"></span>
+            </button>
+
+            <div class="fader" data-handler="knowledge-base">
+              <div class="grid-span7 fader-content mtx4">
+                <img src="/assets/img/home/slider/3a.jpg" alt="" class="img-scale fader-content-item" id="fader-3a">
+                <img src="/assets/img/home/slider/3b.jpg" alt="" class="img-scale fader-content-item" id="fader-3b">
+                <img src="/assets/img/home/slider/3c.jpg" alt="" class="img-scale fader-content-item" id="fader-3c">
+              </div>
+            
+              <div class="feature-info-list grid-span5 mtx4 fader-content-tabs" style="margin-right:0;">
+                <ul class="media-block">
+                  <li data-icon="i" class="fader-content-tab">
+                    <h4>Customize content with rich media.</h4>
+                    <p>Embed pictures, videos, pdfs, slide shares, and more in knowledge base articles so you can share and connect with users in a way that’s most meaningful to them.</p>
+                  </li>
+                  <li data-icon="l" class="fader-content-tab">
+                    <h4>Support your brand.</h4>
+                    <p>We understand great customer support is an important part of your brand. We give you tools to make sure your knowledge base looks and feels like your company, not ours.</p>
+                  </li>
+                  <li data-icon="w" class="fader-content-tab">
+                    <h4>What’s your knowledge base done for you lately?</h4>
+                    <p>See how many times Instant Answers saved you from a support ticket, and find out which articles users view the most. Our handy helpdesk report strives to help you keep improving your knowledge base.</p>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="fader-tabs">
+                <ul>
+                  <li><a href="#fader-3a" class="fader-tab">Save time with canned responses.</a></li>
+                  <li><a href="#fader-3b" class="fader-tab">Support your brand.</a></li>
+                  <li><a href="#fader-3c" class="fader-tab">What’s your knowledge base done for you lately?</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="slider-nav">
+        <button data-dir="prev">
+          <span class="visuallyhidden">Previous slide</span>
+          <span aria-hidden="true" data-icon="p"></span>
+        </button>
+        <button data-dir="next">
+          <span class="visuallyhidden">Next slide</span>
+          <span aria-hidden="true" data-icon="n"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="devices" class="devices strip strip-color-offwhite">
+  <div class="devices-container container grid-row">
+    <h2 class="center-text">Go where your users are.</h2>
+    <img src="/assets/img/home/devices.png" class="devices-img">
+    <p class="center-text center" style="font-size:1.7rem;margin-top:-0.8em;margin-bottom:1em;max-width:475px;">Embed UserVoice in your web app, your iOS app, or your social workflow. No matter where your users go, there you are.</p>
+
+    <ul class="devices-tab list-inline rev-links center-text">
+      <li><a href="#device-web" id="device-tab-web" aria-controls="device-detail-web" role="tab" tabindex="0" aria-selected="false" data-device-tab>Web</a></li>
+      <li><a href="#device-mobile" id="device-tab-mobile" aria-controls="device-detail-mobile" role="tab" tabindex="0" aria-selected="false" data-device-tab>Mobile</a></li>
+      <li><a href="#device-social" id="device-tab-social" aria-controls="device-detail-social" role="tab" tabindex="0" aria-selected="false" data-device-tab>Social</a></li>
+    </ul>
+
+    <div id="device-detail-web" class="grid-span4 device-detail device-web" role="tabpanel" aria-labelledby="device-tab-web device-img-tab-web" aria-hidden="true">
+      <h3>In your web app.</h3>
+      <p>Embed UserVoice in your web app with just a single snippet of code to create a seamless customer service experience for users.</p>
+
+      <h3>In your brand.</h3>
+      <p>UserVoice lets your users post, discuss, and search for ideas (and other helpful information) in a space that you can seamlessly blend with your brand. And we&rsquo;re mobile optimized so users can view it from any mobile device and browser.</p>
+    </div>
+
+    <div id="device-detail-mobile" class="grid-span4 device-detail device-mobile" role="tabpanel" aria-labelledby="device-tab-mobile device-img-tab-mobile" aria-hidden="true">
+      <h3>In your iPhone and iPad apps.</h3>
+      <p>Ditch the mail links madness and <a href="/ios/">embed UserVoice for iOS</a> in your native apps, making it easy for users to submit feedback and support requests right from your apps.</p>
+
+      <h3>On your mobile website.</h3>
+      <p>UserVoice is mobile optimized so users can browse your forum, search for ideas, or submit feedback and support requests from any mobile device and browser.</p>
+      <!-- <p><a href="/stories/swiftkey/">Find out how Swiftkey created an open, collaborative environment to gather insights from their customers</a>.</p> -->
+    </div>
+
+    <div id="device-detail-social" class="grid-span4 device-detail device-social" role="tabpanel" aria-labelledby="device-tab-social device-img-tab-social" aria-hidden="true">
+      <h3>On your Facebook page.</h3>
+      <p>Let users submit ideas right from your Facebook page with the UserVoice Facebook app. All you have to do is activate the app and you&rsquo;re ready to go!</p>
+
+      <h3>In your social workflow.</h3>
+      <p>If you manage your company&rsquo;s social media, you&rsquo;re busy&mdash;too busy to bounce constantly from one dashboard to another to help users. With the <a href="http://sproutsocial.com/features/helpdesk/uservoice-integration">Sprout Social integration</a> for UserVoice, you can create support tickets and quickly address user issues all from Sprout Social.</p>
+    </div>
+
+    <a href="#device-web" id="device-img-tab-web" class="device device-imac" aria-controls="device-detail-web" role="tab" tabindex="0" aria-selected="false" data-device-tab>
+      <img src="/assets/img/devices/imac.png" width="679" height="546" alt="">
+    </a>
+
+    <a href="#device-mobile" id="device-img-tab-mobile" class="device device-ipad-iphone" aria-controls="device-detail-mobile" role="tab" tabindex="0" aria-selected="false" data-device-tab>
+      <img src="/assets/img/devices/ipad-iphone.png" width="702" height="526" alt="">
+    </a>
+
+    <a href="#device-social" id="device-img-tab-social" class="device device-macbook" aria-controls="device-detail-social" role="tab" tabindex="0" aria-selected="false" data-device-tab>
+      <img src="/assets/img/devices/macbook.png" width="1005" height="552" alt="">
+    </a>
+
+  </div>
+</section>
+<!-- <section class="strip strip-color-offwhite" id="devices">
+  <div class="container grid-row">
+    <div class="grid-span12 center-text">
+      <h2>Go where your users are.</h2>
+      <p class="grid-span6 center" style="margin-top:-1em;">Embed UserVoice in your web app, your iOS app, or your social workflow. No matter where your users go, there you are.</p>
+      <a href="#" class="btn learn-more">Learn More</a>
+      <img class="mtx2 mbx2" src="/assets/img/home/devices.png" alt="">
+    </div>
+  </div>
+</section> -->
+
+<section class="strip strip-color-white mtx4 mbx4">
+  <div class="container grid-row">
+    <div class="center center-text">
+      <h2 class="mbx-half">UserVoice plays nice with others.</h2>
+    </div>
+    
+    <ul class="integration-list">
+      
+        <li class="integration-list-item">
+          <img src="/assets/img/integrations/zopim.png" width"60" height="60" alt="Zopim" title="Zopim">
+      
+        <li class="integration-list-item">
+          <img src="/assets/img/integrations/snapengage.png" width"60" height="60" alt="SnapEngage" title="SnapEngage">
+      
+        <li class="integration-list-item">
+          <img src="/assets/img/integrations/sprout-social.png" width"60" height="60" alt="Sprout Social" title="Sprout Social">
+      
+        <li class="integration-list-item">
+          <img src="/assets/img/integrations/yammer.png" width"60" height="60" alt="Yammer" title="Yammer">
+      
+        <li class="integration-list-item">
+          <img src="/assets/img/integrations/hipchat.png" width"60" height="60" alt="HipChat" title="HipChat">
+      
+        <li class="integration-list-item">
+          <img src="/assets/img/integrations/campfire.png" width"60" height="60" alt="Campfire" title="Campfire">
+      
+        <li class="integration-list-item">
+          <img src="/assets/img/integrations/flowdock.png" width"60" height="60" alt="Flowdock" title="Flowdock">
+      
+        <li class="integration-list-item">
+          <img src="/assets/img/integrations/salesforce.png" width"60" height="60" alt="Salesforce" title="Salesforce">
+      
+        <li class="integration-list-item">
+          <img src="/assets/img/integrations/sugarcrm.png" width"60" height="60" alt="SugarCRM" title="SugarCRM">
+      
+        <li class="integration-list-item">
+          <img src="/assets/img/integrations/jira.png" width"60" height="60" alt="JIRA" title="JIRA">
+      
+        <li class="integration-list-item">
+          <img src="/assets/img/integrations/crittercism.png" width"60" height="60" alt="Crittercism" title="Crittercism">
+      
+        <li class="integration-list-item">
+          <img src="/assets/img/integrations/api.png" width"60" height="60" alt="API" title="API">
+      
+    </ul>
+
+    <div class="grid-row grid-span12 center center-text" style="max-width:720px;">
+      <p>Integrate your favorite tools, even those you already use, to make the most of our platform and your workflow. Learn more at <a href="http://developer.uservoice.com">http://developer.uservoice.com</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta strip-color-darkgrey">
+  <div class="container center center-text">
+    <h2>Join over 120,000 organizations<br> across 170 countries in 43 languages.</h2>
+
+    <div class="cta-btns grid-row">
+  <div class="grid-span8 center clearfix">
+    <a href="/101/" class="cta-btn cta-btn-watch" data-icon="b">Watch how UserVoice<br> uses UserVoice</a>
+    <a href="/plans/" class="cta-btn cta-btn-trial"><span>Start your free trial</span></a>
+  </div>
+</div>
+    <ul class="non-list">
+  <li>Pricing starts at <strong>$0 per month</strong>.</li>
+  <li>All premium plans come with a <strong>30-day free trial</strong>.</li>
+  <li><strong>No credit card required</strong> to get started.</li>
+</ul>
+<p><a href="/plans/?ref=body_pricing" class="more-l">Compare plans and pricing <span aria-hidden="true" data-icon="→" class="right-arrow"></span></a></p>
+  </div>
+</section>
+
+<section class="strip strip-color-white">
+  <div class="container">
+    <h2 class="center-text mbx1">Who uses UserVoice?</h2>
+    <div class="grid-row who-uses-uv">
+  <div class="grid-span4">
+    <a href="/stories/support-managers/"><img src="/assets/img/home/ted.jpg" alt=""></a>
+    <h3 class="h3">Support Managers</h3>
+    <p>Ensure quality experiences. Learn how our support manager uses UserVoice to empower his teams to keep customers happy.</p>
+    <a href="/stories/support-managers/" class="btn learn-more">Learn More</a>
+  </div>
+  <div class="grid-span4">
+    <a href="/stories/community-managers"><img src="/assets/img/home/evan.jpg" alt=""></a>
+    <h3 class="h3">Community Managers</h3>
+    <p>Create meaningful connections. Find out how UserVoice gives our community manager greater control to collect feedback and manage the ideas they care about most.</p>
+    <a href="/stories/community-managers/" class="btn learn-more">Learn More</a>
+  </div>
+  <div class="grid-span4 grid-omega">
+    <a href="/stories/product-managers"><img src="/assets/img/home/dejana.jpg" alt=""></a>
+    <h3 class="h3">Product Managers</h3>
+    <p>Build better products. Our product manager shows you how UserVoice helps her collect feedback and understand users&rsquo; needs to drive better product decisions.</p>
+    <a href="/stories/product-managers/" class="btn learn-more">Learn More</a>
+  </div>
+</div>
+
+
+    <p class="center-text mtx3 mbx3"><a href="/stories/" class="more more-l">More success stories <span aria-hidden="true" data-icon="→" class="right-arrow"></span></a></p>
+  </div>
+</section>
+
+
+    <footer class="footer strip" role="contentinfo">
+    <div class="container">
+      <div class="footer-nav grid-row" role="navigation">
+        <div class="grid-span3">
+          <ul class="nav">
+            <li><a href="/about/">About UserVoice</a></li>
+            <li><a href="/stories/">Who uses UserVoice?</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/about/press/">Press</a></li>
+            <li><a href="http://developer.uservoice.com/">Developers</a></li>
+            <li><a href="/jobs/">Working at UserVoice</a></li>
+          </ul>
+
+          <p class="social-links">
+  <a href="https://twitter.com/UserVoice" class="un-link">
+    <span aria-hidden="true" data-icon="t"></span>
+    <span class="visuallyhidden">Follow UserVoice on Twitter</span>
+  </a>
+  <a href="https://www.facebook.com/UserVoice" class="un-link">
+    <span aria-hidden="true" data-icon="f"></span>
+    <span class="visuallyhidden">Friend UserVoice on Facebook</span>
+  </a>
+  <a href="http://www.linkedin.com/company/356606?trk=saber_s000001e_1000" class="un-link">
+    <span aria-hidden="true" data-icon="L"></span>
+    <span class="visuallyhidden">Follow UserVoice on LinkedIn</span>
+  </a>
+</p>
+        </div>
+
+        <ul class="nav grid-span3">
+          <li><a href="/index.html#feedback-forums">Core features</a></li>
+          <li><a href="/touchpoint-toolkit/">Touchpoint Toolkit</a></li>
+          <li><a href="http://developer.uservoice.com">API and integrations</a></li>
+          <li><a href="/widget/">Embeddable widgets</a></li>
+          <li><a href="/ios/">UserVoice for iOS</a></li>
+          <li><a href="/facebook/">Facebook app</a></li>
+          <li><a href="/instant-answers/">Instant Answers&trade;</a></li>
+          <li><a href="/inspector/">Inspector&trade;</a></li>
+          <li><a href="http://translate.uservoice.com/">Translate UserVoice</a></li>
+        </ul>
+
+        <ul class="nav grid-span3">
+          <li><a href="/101/">UserVoice 101</a></li>
+          <li><a href="http://feedback.uservoice.com">Feedback forum</a></li>
+          <li><a href="http://feedback.uservoice.com/knowledgebase">Knowledge base</a></li>
+          <li><a href="http://developer.uservoice.com">Developer documentation</a></li>
+        </ul>
+
+        <div class="grid-span3 grid-omega">
+          <ul class="nav">
+            <li><a href="/plans/?ref=bottom_trial" class="btn sign-up" style="display: block; text-align: center;">Start your free trial</a></li>
+            <li><a href="/plans/?ref=bottom_pricing">Plans and pricing</a></li>
+            <li><a href="https://uservoice.uservoice.com/clients/widgets/WQivqOWMVBHSiQx30WfQ.html" data-contact>Have a question? Contact us!</a></li>
+            <li><a href="http://app.uservoice.com/signin">Sign in</a></li>
+          </ul>
+          <br>
+          <ul class="nav">
+            <li><a href="/tos/">Terms of service</a></li>
+            <li><a href="/privacy/">Privacy policy</a></li>
+            <li><a href="/compliance/">Security and compliance</a></li>
+            <li>&copy; 2013 UserVoice Inc.</li>
+          </ul>
+        </div>
+      </div>
+
+      
+      <article class="usercentered-promo hfeed">
+  <div class="grid-row">
+    <h2 class="usercentered-promo-header">Are you UserCentered?</h2>
+    <div class="grid-span6">
+      <p style="margin: 3px 0 35px;">Join us on our editorial blog and portal for discussions, resources, events, and more to help you keep your customers happy. <strong><a href="http://community.uservoice.com/?utm_source=footer&amp;utm_medium=site&amp;utm_campaign=blog">community.uservoice.com</a></strong></p>
+    </div>
+  </div>
+  <div class="usercentered-promo-entries grid-row">
+    
+      
+        <article class="usercentered-entry hentry grid-span4" style="background-image: url(/assets/img/usercentered/customers-wrong-data-lying.jpg);">
+          <a class="usercentered-entry-link" href="http://community.uservoice.com/blog/customers-wrong-data-lying/?utm_source=footer&amp;utm_medium=site&amp;utm_campaign=blog" rel="bookmark">
+            <h3 class="usercentered-entry-title entry-title">Everyone’s customers are wrong and their data is lying</h3>
+          </a>
+        </article>
+      
+    
+      
+        <article class="usercentered-entry hentry grid-span4" style="background-image: url(/assets/img/usercentered/feedback-how-much.jpg);">
+          <a class="usercentered-entry-link" href="http://community.uservoice.com/blog/feedback-how-much/?utm_source=footer&amp;utm_medium=site&amp;utm_campaign=blog" rel="bookmark">
+            <h3 class="usercentered-entry-title entry-title">How MUCH do your customers want that feature?</h3>
+          </a>
+        </article>
+      
+    
+      
+        <article class="usercentered-entry hentry grid-span4 grid-omega" style="background-image: url(/assets/img/usercentered/culture-horror-story-cto.jpg);">
+          <a class="usercentered-entry-link" href="http://community.uservoice.com/blog/culture-horror-story-cto/?utm_source=footer&amp;utm_medium=site&amp;utm_campaign=blog" rel="bookmark">
+            <h3 class="usercentered-entry-title entry-title">A culture horror story</h3>
+          </a>
+        </article>
+      
+    
+  </div>
+</article>
+
+      <p class="center-text footer-tagline">UserVoice is hand-crafted and lovingly made in San Francisco, CA and Raleigh, NC.</p>
+    </div>
+  </footer>
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="/assets/js/main.js?1365168707" type="text/javascript"></script>
+
+  <!-- Google Analytics -->
+<script>
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-3735534-1']);
-  _gaq.push(['_setDomainName', '.uservoice.com']);
+  _gaq.push(['_setDomainName', 'uservoice.com']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -64,481 +533,62 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
 </script>
-
-
-    </head>
-    <body class="tpl-home">
-      <header class="header">
-        <div class="navigation">
-  <nav>
-    <p class="skipnav">[<a href="#content">Skip navigation</a>]</p>
-          <p class="logo"><a href="http://www.uservoice.com/">UserVoice</a></p>
-        <ul class="left">
-      <li><a class="selected" href="http://www.uservoice.com/">Products</a></li>
-      <li><a href="http://www.uservoice.com/plans/">Plans & Pricing</a></li>
-      <li><a href="http://www.uservoice.com/about/">About</a></li>
-      <li><a href="http://www.uservoice.com/blog/">Blog</a></li>
-      <li><a href="http://developer.uservoice.com/">Developers</a></li>
-      <li><a href="http://translate.uservoice.com/">Translate</a></li>
-    </ul>
-    <ul class="right">
-                  <li><a href="https://app.uservoice.com/signin">Sign in</a></li>
-          </ul>
-  </nav>
-</div>
-
-        <div class="subhead">
-
-            <div class="wrapper" style="padding-right:0; width:1000px;">
-              <div class="uvSubheadCopy" id="content" style="width: 530px;">
-                <h1 class="uvSubheadCopyPrimary">Listening Made Easy</h1>
-              </div><!-- /.uvSubheadCopy -->
-
-              <div id="feature" class="section">
-	<h2 class="visuallyhidden">Featured Content</h2>
-	<div id="panel-wrap">
-		<div id="panels">
-		  
-  				<div id="tool-to-help-keep-your-customers-happy" class="article" role="tabpanel" aria-labelledby="tab-tool-to-help-keep-your-customers-happy" style="background-color:#d9dbf2; background-image:url(http://www.uservoice.com/upload/images/feature/street-sign-full-service.jpg);">
-				  <h3><a href="/fullservice" onClick="_gaq.push(['_trackEvent', 'HP Carousel', 'Image Link', 'tool-to-help-keep-your-customers-happy']);"><span>The tool to help keep your customers happy</span></a></h3>
-				  <div class="feature-content">
-				    <h4>Full Service</h4>
-				    <p>One-Stop Shop. For any direction your customers take you this is the one tool needed to keep them happy.
-</p>
-				    <p><a href="/fullservice" class="reverselink" rel="nofollow" onClick="_gaq.push(['_trackEvent', 'HP Carousel', 'More Link', 'tool-to-help-keep-your-customers-happy']);">Learn More &raquo;</a></p>
-				  </div>
-				</div>
-			
-  				<div id="hear-what-your-customers-are-saying" class="article" role="tabpanel" aria-labelledby="tab-hear-what-your-customers-are-saying" style="background-color:#c5d695; background-image:url(http://www.uservoice.com/upload/images/feature/bubbles-feedback.jpg);">
-				  <h3><a href="/feedback" onClick="_gaq.push(['_trackEvent', 'HP Carousel', 'Image Link', 'hear-what-your-customers-are-saying']);"><span>Hear what your community is saying</span></a></h3>
-				  <div class="feature-content">
-				    <h4>Feedback</h4>
-				    <p>Ever wonder what your customers really want?</p>
-
-<p>Let them tell you through our easy-to-use Feedback forums and start prioritizing ideas through votes.&nbsp; With status updates you will also be able to communicate with your customers on the progress of their ideas.
-</p>
-				    <p><a href="/feedback" class="reverselink" rel="nofollow" onClick="_gaq.push(['_trackEvent', 'HP Carousel', 'More Link', 'hear-what-your-customers-are-saying']);">Learn More &raquo;</a></p>
-				  </div>
-				</div>
-			
-  				<div id="track-and-respond" class="article" role="tabpanel" aria-labelledby="tab-track-and-respond" style="background-color:#fcc78a; background-image:url(http://www.uservoice.com/upload/images/feature/scrabble-helpdesk.jpg);">
-				  <h3><a href="/helpdesk" onClick="_gaq.push(['_trackEvent', 'HP Carousel', 'Image Link', 'track-and-respond']);"><span>Track and Respond</span></a></h3>
-				  <div class="feature-content">
-				    <h4>Helpdesk</h4>
-				    <p>Create your Knowledge Base and provide your customers with Instant Answers&trade;.
-</p>
-				    <p><a href="/helpdesk" class="reverselink" rel="nofollow" onClick="_gaq.push(['_trackEvent', 'HP Carousel', 'More Link', 'track-and-respond']);">Learn More &raquo;</a></p>
-				  </div>
-				</div>
-			
-  				<div id="interact-with-your-fans" class="article" role="tabpanel" aria-labelledby="tab-interact-with-your-fans" style="background-color:#899dc7; background-image:url(http://www.uservoice.com/upload/images/feature/network-facebook.jpg);">
-				  <h3><a href="/facebook" onClick="_gaq.push(['_trackEvent', 'HP Carousel', 'Image Link', 'interact-with-your-fans']);"><span>Interact with your Fans</span></a></h3>
-				  <div class="feature-content">
-				    <h4>Turn your &ldquo;likes&rdquo; into &ldquo;interactions&rdquo;</h4>
-				    <p>Our easy to install Facebook tab will allow you to take the power of UserVoice to your fan page.
-</p>
-				    <p><a href="/facebook" class="reverselink" rel="nofollow" onClick="_gaq.push(['_trackEvent', 'HP Carousel', 'More Link', 'interact-with-your-fans']);">Learn More &raquo;</a></p>
-				  </div>
-				</div>
-			
-			
-  		<ul id="feature-nav-direct" class="nav">
-  		  
-  			  <li role="presentation"><a href="#tool-to-help-keep-your-customers-happy" id="tab-tool-to-help-keep-your-customers-happy" role="tab">The tool to help keep your customers happy</a></li>
-  			
-  			  <li role="presentation"><a href="#hear-what-your-customers-are-saying" id="tab-hear-what-your-customers-are-saying" role="tab">Hear what your community is saying</a></li>
-  			
-  			  <li role="presentation"><a href="#track-and-respond" id="tab-track-and-respond" role="tab">Track and Respond</a></li>
-  			
-  			  <li role="presentation"><a href="#interact-with-your-fans" id="tab-interact-with-your-fans" role="tab">Interact with your Fans</a></li>
-  			
-  		</ul>
-		</div><!-- /#panels -->
-	</div><!-- /#panel-wrap -->
-</div><!-- /#feature -->
-              <a class="button red large" href="/plans/" style="top:477px; left:auto; right:22px; margin-top:0;">Start your 30-day free trial</a>
-            </div><!-- /.wrapper -->
-
-            
-        </div><!-- /.subhead -->
-      </header><!-- /.header -->
-
-      <div class="body">
-        <!-- Note: full-width body doesn't have columns -->
-        <div class="column main">
-          <section class="uvFeaturedIntegrations">
-            <h2>Be Where Your Customers Are</h2>
-            <ul>
-              <li class="uvFeaturedIntegration">
-                <div class="uvFeaturedIntegration-content">
-                  <h3>
-                    <a href="/widget/">
-                      <img src="/upload/images/featured-integrations/widget-tab.png" width="100" height="100" alt="" />
-                      Widget
-                    </a>
-                  </h3>
-                  <p>Get customer feedback directly from your website with our easy-to-embed widget.</p>
-                </div>
-              </li>
-              <li class="uvFeaturedIntegration">
-                <div class="uvFeaturedIntegration-content">
-                  <h3>
-                    <a href="/iphone/">
-                      <img src="http://cdn.uservoice.com/images/marketing/uvFeaturedIntegrations/uvFeaturedIntegration-iphone.png" width="100" height="100" alt="" />
-                      iPhone SDK
-                    </a>
-                  </h3>
-                  <p>Embed a complete customer service solution with a single line of code.</p>
-                </div>
-              </li>
-              <li class="uvFeaturedIntegration">
-                <div class="uvFeaturedIntegration-content">
-                  <h3>
-                    <a href="/facebook/">
-                      <img src="http://cdn.uservoice.com/images/marketing/uvFeaturedIntegrations/uvFeaturedIntegration-facebook.png" width="100" height="100" alt="" />
-                      Facebook App
-                    </a>
-                  </h3>
-                  <p>Your fans can submit, discuss, and vote for ideas within your Facebook page.</p>
-                </div>
-              </li>
-              
-              <li class="uvFeaturedIntegration">
-                <div class="uvFeaturedIntegration-content">
-                  <h3>
-                    <a href="http://developer.uservoice.com">
-                      <img src="http://cdn.uservoice.com/images/marketing/uvFeaturedIntegrations/uvFeaturedIntegration-api.png" width="100" height="100" alt="" />
-                      Developer API
-                    </a>
-                  </h3>
-                  <p>Build your own integration using our developer API.</p>
-                </div>
-              </li>
-            </ul>
-          </section><!-- /.uvFeaturedIntegrations -->
-          
-          <section class="uvFeaturedCustomers">
-  <h2>Who&#8217;s using UserVoice</h2>
-  <p>Find out how these companies are engaging with their customers.</p>
-  <ul>
-    
-      <li><a href="http://www.uservoice.com/upload/doc/case-studies/Swift_Key.pdf" target="_blank" title="This link will open a PDF"><img src="http://www.uservoice.com/upload/images/logos/swiftkey1.png" width="150" height="95" alt="Swift Key"></a></li>
-    
-      <li><a href="http://www.uservoice.com/upload/doc/case-studies/Rackspace.pdf" target="_blank" title="This link will open a PDF"><img src="http://www.uservoice.com/upload/images/logos/rackspace.png" width="150" height="95" alt="Rackspace Hosting"></a></li>
-    
-      <li><a href="http://www.uservoice.com/upload/doc/case-studies/WorkSmart_Labs_Case_Study.pdf" target="_blank" title="This link will open a PDF"><img src="http://www.uservoice.com/upload/images/logos/work-smart-labs.png" width="150" height="95" alt="WorkSmart Labs"></a></li>
-    
-      <li><a href="http://www.uservoice.com/upload/doc/case-studies/Blackbuad.pdf" target="_blank" title="This link will open a PDF"><img src="http://www.uservoice.com/upload/images/logos/blackbaud.png" width="150" height="95" alt="Blackbuad"></a></li>
-    
-  </ul>
-</section><!-- /.uvFeaturedCustomers -->
-          
-          <section class="uvFeaturedArticles">
-            <h2>News, Tips &amp; Insights</h2>
-            <ul>
-              
-              <li class="uvFeaturedArticle">
-                <div class="uvFeaturedArticle-content">
-                  <h3>
-                    <a href="http://www.uservoice.com/blog/entries/off-hours-critical-issue-escalation-process?utm_source=homepage&amp;utm_medium=site&amp;utm_campaign=blog&amp;utm_content=off-hours-critical-issue-escalation-process">
-                      <img src="http://www.uservoice.com/_assets/upload/thumbnails/panic.png" width="100" height="100" alt="">
-                      Our off-hours critical issue escalation process
-                    </a>
-                  </h3>
-                  <p>What happens if the site goes down at 11pm? Who gets called? What gets communicated? Having an escalation process for critical issues during off-hours is key. Here at UserVoice we recently implemented one, and we'd like to share it with you.</p>
-                </div>
-              </li>
-              
-              <li class="uvFeaturedArticle">
-                <div class="uvFeaturedArticle-content">
-                  <h3>
-                    <a href="http://www.uservoice.com/blog/entries/training-customer-service-representative-in-5-steps?utm_source=homepage&amp;utm_medium=site&amp;utm_campaign=blog&amp;utm_content=training-customer-service-representative-in-5-steps">
-                      <img src="http://www.uservoice.com/_assets/upload/thumbnails/pool.png" width="100" height="100" alt="">
-                      Training your customer service representative (in 5 steps)
-                    </a>
-                  </h3>
-                  <p>So, you’ve hired your first full-time customer service rep. You found the right candidate. Now how do you turn them into a lean, friendly, ticket-answering machine?</p>
-                </div>
-              </li>
-              
-              <li class="uvFeaturedArticle">
-                <div class="uvFeaturedArticle-content">
-                  <h3>
-                    <a href="http://www.uservoice.com/blog/entries/customer-service-scaling-timeline?utm_source=homepage&amp;utm_medium=site&amp;utm_campaign=blog&amp;utm_content=customer-service-scaling-timeline">
-                      <img src="http://www.uservoice.com/_assets/upload/editorial/part_of_timeline.png" width="100" height="100" alt="">
-                      Introducing the Customer Service Scaling Timeline
-                    </a>
-                  </h3>
-                  <p>You want to provide great customer service, but your greatest challenge is scaling. That’s why we're excited to announce a guide for ensure consistently great customer service as you grow.</p>
-                </div>
-              </li>
-              
-              <li class="uvFeaturedArticle">
-                <div class="uvFeaturedArticle-content">
-                  <h3>
-                    <a href="http://www.uservoice.com/blog/entries/40-percent-of-your-customer-service-emails-could-be-answered-by-FAQ?utm_source=homepage&amp;utm_medium=site&amp;utm_campaign=blog&amp;utm_content=40-percent-of-your-customer-service-emails-could-be-answered-by-FAQ">
-                      <img src="http://www.uservoice.com/_assets/upload/blog/instant_answers.png" width="100" height="100" alt="">
-                      The Science of Customer Service: 40% of your customer service emails could be answered by your FAQ
-                    </a>
-                  </h3>
-                  <p>We looked at data from a hundred companies using UserVoice Helpdesk, and their FAQs are answering an average of 15% of customer support issues a month (sometimes up to 40%). That's serious time saved.</p>
-                </div>
-              </li>
-              
-            </ul>
-          </section><!-- /.uvFeaturedArticles -->
-  
-
-    </div><!-- /.column main -->
-  
-    <div class="column sidebar">
-      <section class="stats">
-        <p>Join the <em>70 thousand organizations</em> in over <em>42 countries</em> that use UserVoice.</p>
-        <div class="uvInternationalNotice">
-          <p>Available in <a href="http://translate.uservoice.com">30 languages</a> &amp; <a href="http://export.gov/safeharbor/" rel="nofollow">Safe Harbor</a> compliant.</p>
-        </div>
-      </section><!-- /.stats -->
-
-      <section class="links">
-        <h2>Solutions for…</h2>
-        <ul>
-          
-  				  <li><a href="/for/civic_engagement" title="Civic Engagement">Civic Engagement</a></li>
-          
-  				  <li><a href="/for/enterprise" title="Enterprise">Enterprise</a></li>
-          
-  				  <li><a href="/for/events" title="Events">Events</a></li>
-          
-  				  <li><a href="/for/facebook_pages" title="Facebook Pages">Facebook Pages</a></li>
-          
-  				  <li><a href="/for/gaming" title="Gaming">Gaming</a></li>
-          
-  				  <li><a href="/for/government" title="Government">Government</a></li>
-          
-  				  <li><a href="/for/internal_innovation" title="Internal Innovation">Internal Innovation</a></li>
-          
-  				  <li><a href="/for/nonprofits" title="Non-profits">Non-profits</a></li>
-          
-  				  <li><a href="/for/startups" title="Startups">Startups</a></li>
-          
-        </ul>
-      </section><!-- /.links -->
-      
-      <section>
-        <a href="https://student.gototraining.com/rt/6816828395218086912" class="button dblue" style="margin-left:10px; width:220px">Register for a demo</a>
-      </section>
-    
-      <section class="quotes">
-        
-          <ul>
-            
-              <li>  <img src="http://www.uservoice.com/upload/images/logos/seesmic.png" alt="Seesmic logo" />
-  <blockquote>
-    <p>UserVoice has been key to our success. It tells us what our customers want and how urgently they want it. Not to mention it's very easy to use and very affordable!</p>
-  </blockquote>
-  <p>
-    <strong>Loic Le Meur, Founder & CEO</strong><br />
-    Seesmic
-  </p>
-
-            <p><a href="http://feedback.seesmic.com" class="uservoice-forum">See Seesmic's UserVoice</a></p>
-      </li>
-            
-              <li>  <img src="http://www.uservoice.com/upload/images/logos/posterous.png" alt="Posterous logo" />
-  <blockquote>
-    <p>Thanks to UserVoice, we've been able to track and resolve user submitted issues more effectively. We believe in great service, and UserVoice lets us deliver even as we grow.</p>
-  </blockquote>
-  <p>
-    <strong>Sachin Agarwal, Founder & CEO</strong><br />
-    Posterous
-  </p>
-
-            <p><a href="http://posterous.uservoice.com" class="uservoice-forum">See Posterous's UserVoice</a></p>
-      </li>
-            
-          </ul>
-        
-      </section><!-- /.quotes -->
-    </div><!-- /.column sidebar -->
-  </div><!-- /.body -->
-  
-  <footer class="footer vcard">
-  <div class="socialmedia">
-    <div class="source blog">
-      <img class="icon" src="http://cdn.uservoice.com/images/marketing/feed-16x16.png" alt="" />
-      <h2 class="title">
-        From our <a href="http://www.uservoice.com/blog">Blog</a> …
-      </h2>
-      <ul>
-        
-	        <li><a href="http://www.uservoice.com/blog/entries/uservoice-fourth-birthday-basic-plan-free">It’s UserVoice’s 4th birthday, but we’re the ones giving the gifts!</a></li>
-        
-      </ul>
-    </div>
-    <div class="source twitter">
-      <img class="icon" src="http://cdn.uservoice.com/images/marketing/twitter-16x16.png" alt="" />
-      <h2 class="title">
-        <a href="http://twitter.com/UserVoice" rel="me">Follow @UserVoice</a> on Twitter
-      </h2>
-    </div>
-    <div class="source facebook">
-      <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2FUserVoice&amp;layout=standard&amp;show_faces=true&amp;width=265&amp;action=like&amp;font=segoe+ui&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:265px; height:80px;" allowTransparency="true"></iframe>
-
-<!-- Place this tag where you want the +1 button to render -->
-<g:plusone size="medium"></g:plusone>
-    </div>
-
-      </div>
-
-  <nav>
-    <h2>Learn more about UserVoice</h2>
-    <ul>
-      <li class="column">
-        Company
-        <ul>
-          <li><a href="http://www.uservoice.com/about/">About</a></li>
-          <li><a href="http://www.uservoice.com/blog">Blog</a></li>
-          <li><a href="http://developer.uservoice.com">Developers</a></li>
-          <li><a href="http://www.uservoice.com/about/jobs/">Jobs</a></li>
-          <li><a href="http://www.uservoice.com/about/coverage/">Press</a></li>
-          <li><a href="http://www.uservoice.com/tos/">Terms of Service</a></li>
-          <li><a href="http://www.uservoice.com/privacy/">Privacy Policy</a></li>
-        </ul>
-      </li>
-      <li class="column">
-        Products
-        <ul>
-          <li><a href="http://www.uservoice.com/feedback/">UserVoice Feedback</a>
-          <li><a href="http://www.uservoice.com/helpdesk/">UserVoice Helpdesk</a>
-          <li><a href="http://www.uservoice.com/fullservice/">UserVoice Full Service</a>
-        </ul>
-        <br/>
-        Channels
-        <ul>
-	  <li><a href="http://www.uservoice.com/widget/">Embeddable Feedback Tab</a></li>
-          <li><a href="http://www.uservoice.com/facebook/">Facebook Feedback Tab</a></li>
-          <li><a href="http://www.uservoice.com/iphone/">iPhone Feedback SDK</a></li>
-        </ul>
-      </li>
-      <li class="column">
-        Solutions for…
-        <ul>
-          
-            <li>
-                              <a href="http://www.uservoice.com/for/civic_engagement/">Civic Engagement</a>
-                          </li>
-          
-            <li>
-                              <a href="http://www.uservoice.com/for/enterprise/">Enterprise</a>
-                          </li>
-          
-            <li>
-                              <a href="http://www.uservoice.com/for/events/">Events</a>
-                          </li>
-          
-            <li>
-                              <a href="http://www.uservoice.com/for/facebook_pages/">Facebook Pages</a>
-                          </li>
-          
-            <li>
-                              <a href="http://www.uservoice.com/for/gaming/">Gaming</a>
-                          </li>
-          
-            <li>
-                              <a href="http://www.uservoice.com/for/government/">Government</a>
-                          </li>
-          
-            <li>
-                              <a href="http://www.uservoice.com/for/internal_innovation/">Internal Innovation</a>
-                          </li>
-          
-            <li>
-                              <a href="http://www.uservoice.com/iphone/">iPhone Apps</a>
-                          </li>
-          
-            <li>
-                              <a href="http://www.uservoice.com/for/nonprofits/">Non-profits</a>
-                          </li>
-          
-            <li>
-                              <a href="http://www.uservoice.com/for/startups/">Startups</a>
-                          </li>
-          
-        </ul>
-      </li>
-      <li class="column">
-        Contact
-        <ul>
-	  <li>Sales: <a href="mailto:sales@uservoice.com" class="email">sales@uservoice.com</a></li>
-          <li>Support: <a href="mailto:support@uservoice.com" class="email">support@uservoice.com</a></li>
-          <li>Twitter: <a href="http://twitter.com/UserVoice" rel="me">@UserVoice</a></li>
-          
-          <li class="adr">
-            <span class="street-address">425 Bush St.</span> <span class="extended-address">#600</span><br/>
-            <span class="locality">San Francisco</span>, <abbr class="region" title="California" style="outline:none;">CA</abbr> <span class="postal-code">94108</span>
-          </li>
-         <li><a href="https://student.gototraining.com/rt/6816828395218086912">Sign up for a demo</a></li>
-         <li class="tel"><span class="type">Sales Enquiries</span> (9-6 PST): <a href="tel:+1-888-840-0280" class="value" style="text-decoration:none;">+1 (888) 840-0280</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-  <p class="copyright"><strong>© 2012 <span class="fn org">UserVoice Inc.</span></strong> All rights reserved.</p>
-</footer>
-
-<script src="http://www.uservoice.com/cache/assets/1328148059110f8eb01b58bba96f0512008d6bd777.js"></script>
-
-<!-- Start of AdRoll tracking pixel -->
-<script type="text/javascript">
-adroll_adv_id = "GJKNYGJ6A5BX7JK5UONWVU";
-adroll_pix_id = "VGVJCL77PVE5HJE2BLHDNL";
-(function () {
-var oldonload = window.onload;
-window.onload = function(){
-   __adroll_loaded=true;
-   var scr = document.createElement("script");
-   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
-   scr.setAttribute('async', 'true');
-   scr.type = "text/javascript";
-   scr.src = host + "/j/roundtrip.js";
-   document.documentElement.firstChild.appendChild(scr);
-   if(oldonload){oldonload()}};
-}());
-</script>
-<!-- End of AdRoll tracking pixel -->
-
+  <!-- AdRoll -->
 <script>
+  adroll_adv_id = "GJKNYGJ6A5BX7JK5UONWVU";
+  adroll_pix_id = "VGVJCL77PVE5HJE2BLHDNL";
+
+  (function () {
+    var oldonload = window.onload;
+    window.onload = function(){
+      __adroll_loaded=true;
+      var scr = document.createElement("script");
+      var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+      scr.setAttribute('async', 'true');
+      scr.type = "text/javascript";
+      scr.src = host + "/j/roundtrip.js";
+      ((document.getElementsByTagName('head') || [null])[0] ||
+      document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+      if(oldonload){oldonload()}
+    };
+  }());
+</script>
+  <!-- Pardot -->
+<script>
+  piAId = '18202';
+  piCId = '1021';
+  
   (function() {
-    var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
-    uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/CqbxRqgh7mm1ypc8268kNA.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+    function async_load(){
+      var s = document.createElement('script'); s.type = 'text/javascript';
+      s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+      var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+    }
+    if(window.attachEvent) { window.attachEvent('onload', async_load); }
+    else { window.addEventListener('load', async_load, false); }
   })();
 </script>
+  <!-- SnapEngage -->
+<script>
+  document.write(unescape("%3Cscript src='" + ((document.location.protocol=="https:")?"https://www.snapengage.com":"http://www.snapengage.com") + "/snapabug.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script>
+  SnapABug.init("c234da17-c3bc-44da-96e8-cb1d693840e5");
 
-<!-- begin olark code -->
-<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
-f[z]=function(){
-(a.s=a.s||[]).push(arguments)};var a=f[z]._={
-},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
-f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
-0:+new Date};a.P=function(u){
-a.p[u]=new Date-a.p[0]};function s(){
-a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
-hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
-return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
-b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
-b.contentWindow[g].open()}catch(w){
-c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
-var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
-b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
-loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
-/* custom configuration goes here (www.olark.com/documentation) */
-olark.identify('3301-422-10-5394');/*]]>*/</script><noscript><a href="https://www.olark.com/site/3301-422-10-5394/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
-<!-- end olark code -->
+  SnapABug.getAgentStatusAsync(function(online) {
+    if (online) {
+      var link = $('[data-live-support-link]');
+      link.on('click', function(e) {
+        SnapABug.startLink()
+        e.preventDefault();
+      });
+      link.show();
+    }
+  });
+</script>
 
-
+  
 
 </body>
 </html>
